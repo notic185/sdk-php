@@ -1,0 +1,28 @@
+{
+  "name": "notic185/php-sdk",
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Notic185\\PHP_SDK\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Notic185\\PHP_SDK\\": "tests/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Roman12314",
+      "email": "q9474145906@gmail.com"
+    }
+  ],
+  "require": {
+    "ext-curl": "*",
+    "php": "^8.2"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^11.5.3"
+  }
+}
